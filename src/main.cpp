@@ -5,7 +5,7 @@
 // Version 1.5 Rob Miles
 
 
-#define version "HullOS Version R2.2"
+#define version "HullOS Version R2.3"
 
 // Physical connections for Arduino Pro Mini
 
@@ -49,7 +49,7 @@
 
 void setup() {
 
-  Serial.begin(115200);
+  Serial.begin(19200);
   delay(100);
 //  Serial.println(version);
 

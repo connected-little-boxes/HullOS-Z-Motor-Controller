@@ -14,3 +14,7 @@ The above setting is for the Arduino Pro-mini 5v version. Might want to make som
 
 * Changed serial baud rate to 115200
 * startMotors in MotorControl now stops a motor if the requested speed is 0. The previous version left the motor running if the speed was 0.
+
+## HullOS Version R2.3
+
+* Changed serial baud rate to 19200 to improve connection quality. 
