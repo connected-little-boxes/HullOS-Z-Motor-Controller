@@ -18,3 +18,9 @@ The above setting is for the Arduino Pro-mini 5v version. Might want to make som
 ## HullOS Version R2.3
 
 * Changed serial baud rate to 19200 to improve connection quality. 
+
+## HullOS Version R2.4
+
+* Added build types for 8MHz and 16MHz for Pro-mini and Uno devices to Platform.ini
+* Added compile time flags to generate appropriate device versions
+

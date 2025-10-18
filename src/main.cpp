@@ -4,8 +4,18 @@
 // Command protocol available at https://github.com/HullPixelbot/HullPixelbotCode
 // Version 1.5 Rob Miles
 
+#ifdef CPU_16
+#define version "HullOS Version R2.4 16MHz"
+#endif
 
-#define version "HullOS Version R2.3"
+#ifdef CPU_8
+#define version "HullOS Version R2.4 8MHz"
+#endif
+
+#ifdef CPU_UNO
+#define version "HullOS Version R2.4 Uno"
+#endif
+
 
 // Physical connections for Arduino Pro Mini
 
